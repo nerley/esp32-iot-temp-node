@@ -1,0 +1,15 @@
+esp32-iot-temp-node/
+├── README.md
+├── firmware/
+│   ├── src/
+│   │   ├── main.cpp
+│   │   ├── wifi_manager.h
+│   │   ├── wifi_manager.cpp
+│   │   ├── sensor_ds18b20.h
+│   │   └── sensor_ds18b20.cpp
+│   └── platformio.ini   (opcional, recomendado)
+├── docs/
+│   ├── wiring.png
+│   └── power_notes.md
+└── logs/
+    └── brownout_fix.md
